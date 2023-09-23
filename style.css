@@ -7,6 +7,7 @@ html{
 }
 body{
     font-family: monospace;
+    /* background-color: black; */
 }
 .Home-Page-Starting{
     /* border: 2px solid black; */
@@ -17,7 +18,7 @@ body{
   
 }
 .Header-Part{
-   
+
     display: flex;
     justify-content: space-between;
 }
@@ -28,12 +29,11 @@ body{
     font-size: 2.5rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
-#Logo-Name{
-    
-    color: black; /* Text color */
-    font-size: 3.5rem;
-    
-    
+#Logo-Part1 img{
+    width: 18.5rem;
+    margin-top: -7.3rem;
+    /* display: none; */
+    /* border: 2px solid black; */
 }
 .Header-Part-Right{
     /* border: 2px solid blue; */
@@ -123,9 +123,9 @@ body{
 }
 .Middle-Page{
     /* border: 2px solid black; */
-    height: 85rem;
+    height: 65rem;
     display: flex;
-    margin-top:14rem;
+    margin-top:12rem;
     margin-left: 5rem;
     justify-content: space-between;
 }
@@ -149,7 +149,7 @@ body{
     display: flex;
     font-size: 1.8rem;
     font-family: 'Courier New', Courier, monospace;
-    height: 15rem;
+    height: 12rem;
     margin-top: 1rem;
     transition: transform 1s;
 }
@@ -198,4 +198,88 @@ body{
     margin-top: 100px;
 } */
 
+.Authentication{
+    /* border: 2px solid black; */
+    height: 60rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4rem;
+}
+#SignUp{
+    /* border: 2px solid red; */
+    width: 55rem;
+    margin-left: 47rem;
+}
+#Login{
+    /* border: 2px solid blue; */
+    width: 55rem;
+    margin-left: 47rem;
+}
+.SignUp-Logo img ,.Login-Logo img{
+    width: 22rem;
+    /* border: 2px solid blue; */
+    margin-top: -2rem;
+}
+.SignUp-Logo ,.Login-Logo{
+    /* border: 2px solid black; */
+    width: 20rem;
+    margin-left: 14rem;
+}
+#SignUp-Info,#Login-Info{
+    /* border: 2px solid red; */
+    width: 52rem;
+    margin-top: -5.5rem;
+}
+#SignUp-Info input,#Login-Info input{
+    display: block;
+    width: 33rem;
+    padding: 1.8rem 1.3rem; /* Adjust padding for text alignment */
+    margin-left: 8rem;
+    text-align: left; /* Set text alignment to left */
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    outline: none;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+#Sign-Up_Submit_Btn,#Login_Submit_Btn{
+    width: 27.5rem;
+    padding: 1.5rem 2rem; /* Adjust padding for better aesthetics */
+    margin-left: 11.5rem;
+    background-color: rgba(74, 115, 202, 0.879);
+    color: white; /* Set text color to contrast with background */
+    border: none; /* Remove border */
+    border-radius: 0.3rem;
+    font-size: 1.2rem; /* Increase font size for better visibility */
+    font-weight: bold; /* Add bold font weight for emphasis */
+    cursor: pointer; /* Add pointer cursor for interactivity */
+    transition: background-color 0.3s ease; /* Add smooth hover effect */
+    display: block;
+    transition: transform 1s;
+    }
+    #Sign-Up_Submit_Btn:hover,#Login_Submit_Btn:hover{
+        transform: scale(1.1);
+    }
+    #SignUp-Info span{
+        font-size: 1.5rem;
+        color: #546E7A;
+        cursor: pointer;
+    }
+    .SignUp-Actions{
+        /* border: 2px solid black; */
+        width: 10rem;
+        margin-left: 8rem;
+        margin-top: 1.5rem;
+    }
+    .LoginUp-Actions{
+        width: 26rem;
+        margin-left: 8rem;
+        margin-top: 1.5rem;
+    }
+    .LoginUp-Actions span{
+        font-size: 1.5rem;
+        color: #546E7A;
+        cursor: pointer;
+    }
         

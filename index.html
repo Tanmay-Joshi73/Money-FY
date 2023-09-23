@@ -7,9 +7,7 @@
     <title>MoneyFY</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* html{
-            font-size: 62.5%;
-        } */
+        /* Your additional styles here */
     </style>
 </head>
 
@@ -17,7 +15,11 @@
     <div class="Home-Page-Starting">
         <div class="Header-Part">
             <div class="Header-Part-Left">
-                <span id="Logo-Name"><span id="Logo-Part1">Money</span>-<span id="Logo-Part2">FY</span></span>
+                <span id="Logo-Name">
+                    <span id="Logo-Part1">
+                        <img src="./Photos/Logo1/Canvas-Logo-removebg-preview.png" alt="">
+                    </span>
+                </span>
             </div>
             <div class="Header-Part-Right">
                 <ul>
@@ -27,7 +29,6 @@
                     <li>|</li>
                     <li>Log-in</li>
                 </ul>
-
             </div>
         </div>
 
@@ -38,7 +39,8 @@
 
             <div class="Right-Side">
                 <h1>A New Way To Manage</h1>
-                <p>Money-FY Is A Best PlatForm Which Helps You In <span id="Info-Mes">Managing Your Money</span></p><br>
+                <p>Money-FY Is A Best Platform Which Helps You In <span id="Info-Mes">Managing Your Money</span></p>
+                <br>
                 <button id="CreateID">Create Account</button>
             </div>
         </div>
@@ -53,9 +55,8 @@
                 <div class="Part1-Info">
                     <span id="part-title">Financial Security</span><br>
                     <span id="part-slash">-</span><br>
-                    <span id="part-info-main">saving money provides a safety net for unexpected expenses such as
-                        Food,Repairs</span>
-
+                    <span id="part-info-main">Saving money provides a safety net for unexpected expenses such as
+                        Food, Repairs</span>
                 </div>
             </div>
             <div class="Mid-Left-Part1">
@@ -65,8 +66,7 @@
                 <div class="Part1-Info">
                     <span id="part-title">Financial Goals</span><br>
                     <span id="part-slash">-</span><br>
-                    <span id="part-info-main"> Saving Money Enables You To Work Towards <br>Your Financial Goals</span>
-
+                    <span id="part-info-main">Saving Money Enables You To Work Towards <br>Your Financial Goals</span>
                 </div>
             </div>
             <div class="Mid-Left-Part1">
@@ -76,19 +76,53 @@
                 <div class="Part1-Info">
                     <span id="part-title">Financial Freedom</span><br>
                     <span id="part-slash">-</span><br>
-                    <span id="part-info-main"> Saving money can help users achieve<br> financial independence</span>
-
+                    <span id="part-info-main">Saving money can help users achieve<br> financial independence</span>
                 </div>
             </div>
-            
         </div>
         <div class="Mid-Right">
             <img src="./Photos/Circular-image.webp" alt="">
-
         </div>
     </div>
 
-</body>
+    <div class="Authentication">
+        <div id="SignUp" class="AuthForm">
+            <div class="SignUp-Logo">
+                <img src="./Photos/Logo1/Canvas-Logo-removebg-preview.png" alt="">
+            </div>
+            <form id="SignUp-Form" action="your_action_url_here" method="POST">
+                <div id="SignUp-Info">
+                    <input type="text" autocapitalize="off" spellcheck="false" placeholder="Username" name="username">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input type="password" name="confirm_password" placeholder="Confirm Password">
+                    <input type="email" name="email" placeholder="Email">
+                    <button type="submit" id="Sign-Up_Submit_Btn">Submit</button>
+                    <div class="SignUp-Actions">
+                        <span id="Toogle_Login">Login Up</span>
+                    </div>
+                </div>
+            </form>
+        </div>
 
+        <div id="Login" class="AuthForm" style="display: none;">
+            <div class="Login-Logo">
+                <img src="./Photos/Logo1/Canvas-Logo-removebg-preview.png" alt="">
+            </div>
+            <form id="Login-Form" action="your_action_url_here" method="POST">
+                <div id="Login-Info">
+                    <input type="text" autocapitalize="off" spellcheck="false" placeholder="Username or Email"
+                        name="username">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <button type="submit" id="Login_Submit_Btn">Submit</button>
+                    <div class="LoginUp-Actions">
+                        <span>Forgot Password</span>
+                        <span id="Toogle-SignUp">Sign Up</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="Design.js"></script>
+</body>
 
 </html>
