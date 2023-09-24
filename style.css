@@ -112,22 +112,30 @@ body{
     margin-left: 15rem;
 }
 #CreateID{
-    margin-left:21rem ;
-    margin-top: .2rem;
-    width: 14rem;
+    margin-left:19.2rem ;
+    margin-top: .5rem;
+    width: 16.5rem;
     height: 4rem;
     /* color:#33b355; */
-    background-color: #46d56c;
-    color: rgba(255, 255, 255, 0.815);
+    background-color: #38c75f;
+    color:white;
+    border: none;
+    cursor: pointer;
     font-size: 1.6rem;
-    font-weight:400;
+    font-weight:500;
     padding-top:1rem;
     padding-bottom:1rem;
-    padding-left: 1.5rem;
-    padding-right: 1rem;
-    border-radius: .4rem;
+    padding-left: 1.7rem;
+    padding-right: 1.3rem;
+    border-radius: 0.3rem;
     opacity: 1;
 }
+#CreateID a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .Middle-Page{
     /* border: 2px solid black; */
     height: 65rem;

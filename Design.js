@@ -4,7 +4,7 @@ const SignUp_Block = document.getElementById('SignUp');
 const Login_Block = document.getElementById('Login');
 const Login=document.getElementById('Toogle_Login')
 const SignUp=document.getElementById('Toogle-SignUp')
-
+const CreateAccountBtn=document.getElementById('CreateID')
 Login.addEventListener('click',()=>{
     SignUp_Block.style.display='none'
     Login_Block.style.display='block'
@@ -20,4 +20,8 @@ SignUp_Header.addEventListener('click',()=>{
 Login_Header.addEventListener('click',()=>{
     Login_Block.style.display='block'
     SignUp_Block.style.display='none'
+})
+CreateAccountBtn.addEventListener('click',()=>{
+    Login_Block.style.display='none'
+    SignUp_Block.style.display='block'
 })
