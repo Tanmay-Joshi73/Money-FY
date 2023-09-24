@@ -112,7 +112,7 @@ body{
     margin-left: 15rem;
 }
 #CreateID{
-    margin-left:19.2rem ;
+    margin-left:18.6rem ;
     margin-top: .5rem;
     width: 16.5rem;
     height: 4rem;
@@ -129,12 +129,15 @@ body{
     padding-right: 1.3rem;
     border-radius: 0.3rem;
     opacity: 1;
+    transition: opacity 1s ease;
 }
 #CreateID a{
     text-decoration: none;
     color: white;
 }
-
+#CreateID:hover{
+    opacity: .8;
+}
 
 .Middle-Page{
     /* border: 2px solid black; */
